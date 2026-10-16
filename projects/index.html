@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="uz" class="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maksudjanov Behruzbek | Junior Python Backend Dasturchi</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            darkMode: 'class',
+            theme: {
+                extend: {
+                    colors: {
+                        primary: '#0ea5e9',
+                        django: '#0c4b33',
+                        python: '#3776ab'
+                    }
+                }
+            }
+        }
+    </script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        body {
+            background-color: #0b0f19;
+            color: #f3f4f6;
+            font-family: system-ui, -apple-system, sans-serif;
+        }
+        .glass-card {
+            background: rgba(17, 24, 39, 0.7);
+            backdrop-filter: blur(12px);
+            border: 1px solid rgba(255, 255, 255, 0.08);
+        }
+    </style>
+</head>
+<body class="min-h-screen flex flex-col justify-between">
+
+    <!-- Header -->
+    <header class="sticky top-0 z-50 glass-card border-b border-gray-800">
+        <div class="max-w-6xl mx-auto px-4 py-4 flex justify-between items-center">
+            <h1 class="text-xl font-bold bg-gradient-to-r from-blue-400 to-emerald-400 bg-clip-text text-transparent">
+                Behruzbek.dev
+            </h1>
+            <nav class="space-x-6 text-sm text-gray-300">
+                <a href="#about" class="hover:text-primary transition">O'zim haqimda</a>
+                <a href="#skills" class="hover:text-primary transition">Ko'nikmalar</a>
+                <a href="#projects" class="hover:text-primary transition">Loyihalar</a>
+                <a href="#contact" class="hover:text-primary transition">Aloqa</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="max-w-6xl mx-auto px-4 py-10 space-y-16">
+
+        <!-- Hero Section -->
+        <section id="about" class="glass-card p-8 rounded-2xl flex flex-col md:flex-row items-center justify-between gap-8">
+            <div class="space-y-4 max-w-2xl">
+                <span class="px-3 py-1 text-xs font-semibold text-emerald-400 bg-emerald-950/60 rounded-full border border-emerald-500/30">
+                    Junior Python Backend Dasturchi
+                </span>
+                <h2 class="text-4xl font-extrabold tracking-tight">
+                    Salom, men <span class="text-primary">Behruzbek Maksudjanov</span>
+                </h2>
+                <p class="text-gray-400 leading-relaxed">
+                    Men boshlang'ich Python Backend dasturchiman. Django, Django REST Framework, PostgreSQL va REST API texnologiyalarini o'rganmoqdaman. Amaliy loyihalar yaratib, toza va samarali kod yozish ko'nikmalarimni rivojlantirmoqdaman.
+                </p>
+                <div class="flex gap-4 pt-2">
+                    <a href="https://github.com/behruz167167-bit" target="_blank" class="px-5 py-2.5 bg-gray-800 hover:bg-gray-700 rounded-lg text-sm font-medium flex items-center gap-2 border border-gray-700 transition">
+                        <i class="fab font-xl fa-github"></i> GitHub
+                    </a>
+                    <a href="https://t.me/developer567565" target="_blank" class="px-5 py-2.5 bg-primary hover:bg-sky-600 rounded-lg text-sm font-medium text-white flex items-center gap-2 transition">
+                        <i class="fab fa-telegram"></i> Telegram
+                    </a>
+                </div>
+            </div>
+            <div class="w-full md:w-80 glass-card p-4 rounded-xl border border-gray-800 text-xs font-mono text-emerald-400">
+                <p class="text-gray-500"># developer_info.py</p>
+                <p><span class="text-pink-400">class</span> <span class="text-yellow-300">Developer</span>:</p>
+                <p class="pl-4">name = <span class="text-amber-200">"Behruzbek"</span></p>
+                <p class="pl-4">role = <span class="text-amber-200">"Backend Dev"</span></p>
+                <p class="pl-4">stack = [<span class="text-amber-200">"Python"</span>, <span class="text-amber-200">"Django"</span>, <span class="text-amber-200">"DRF"</span>, <span class="text-amber-200">"PostgreSQL"</span>]</p>
+                <p class="pl-4">status = <span class="text-amber-200">"Ishga tayyor"</span></p>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="space-y-6">
+            <h3 class="text-2xl font-bold border-l-4 border-primary pl-3">Ko'nikmalar va Texnologiyalar</h3>
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
+                <div class="glass-card p-4 rounded-xl flex items-center gap-3">
+                    <i class="fab fa-python text-3xl text-yellow-400"></i>
+                    <div>
+                        <h4 class="font-semibold text-sm">Python</h4>
+                        <p class="text-xs text-gray-400">Asosiy til</p>
+                    </div>
+                </div>
+                <div class="glass-card p-4 rounded-xl flex items-center gap-3">
+                    <i class="fas fa-server text-3xl text-emerald-500"></i>
+                    <div>
+                        <h4 class="font-semibold text-sm">Django / DRF</h4>
+                        <p class="text-xs text-gray-400">Web & REST API</p>
+                    </div>
+                </div>
+                <div class="glass-card p-4 rounded-xl flex items-center gap-3">
+                    <i class="fas fa-database text-3xl text-blue-400"></i>
+                    <div>
+                        <h4 class="font-semibold text-sm">PostgreSQL / SQLite</h4>
+                        <p class="text-xs text-gray-400">Ma'lumotlar bazasi</p>
+                    </div>
+                </div>
+                <div class="glass-card p-4 rounded-xl flex items-center gap-3">
+                    <i class="fab fa-docker text-3xl text-sky-400"></i>
+                    <div>
+                        <h4 class="font-semibold text-sm">Git va Boshqalar</h4>
+                        <p class="text-xs text-gray-400">Docker, Redis, Aiogram</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section (Connected to Django Backend API) -->
+        <section id="projects" class="space-y-6">
+            <div class="flex justify-between items-center">
+                <h3 class="text-2xl font-bold border-l-4 border-emerald-500 pl-3">Loyihalar (Django API)</h3>
+                <button onclick="openModal()" class="px-4 py-2 bg-emerald-600 hover:bg-emerald-500 text-xs font-semibold rounded-lg text-white transition flex items-center gap-2">
+                    <i class="fas fa-plus"></i> Loyiha qo'shish
+                </button>
+            </div>
+
+            <!-- Container where Django API Projects will be rendered -->
+            <div id="projects-container" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                <!-- Data will load dynamically from http://127.0.0.1:8000/api/projects/ -->
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="glass-card p-8 rounded-2xl space-y-4">
+            <h3 class="text-2xl font-bold border-l-4 border-primary pl-3">Aloqa</h3>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-4 text-sm">
+                <div class="flex items-center gap-3 text-gray-300">
+                    <i class="fas fa-envelope text-primary text-lg"></i>
+                    <span>behruz167167@gmail.com</span>
+                </div>
+                <div class="flex items-center gap-3 text-gray-300">
+                    <i class="fab fa-telegram text-primary text-lg"></i>
+                    <span>@developer567565</span>
+                </div>
+                <div class="flex items-center gap-3 text-gray-300">
+                    <i class="fab fa-github text-primary text-lg"></i>
+                    <span>github.com/behruz167167-bit</span>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Modal Form for Adding Project -->
+    <div id="project-modal" class="fixed inset-0 bg-black/70 backdrop-blur-sm hidden flex justify-center items-center p-4 z-50">
+        <div class="glass-card bg-gray-900 border border-gray-700 p-6 rounded-xl w-full max-w-md space-y-4">
+            <div class="flex justify-between items-center">
+                <h4 class="font-bold text-lg">Yangi loyiha</h4>
+                <button onclick="closeModal()" class="text-gray-400 hover:text-white">&times;</button>
+            </div>
+            <form id="add-project-form" class="space-y-3">
+                <input type="text" id="p-title" placeholder="Loyiha nomi" required class="w-full bg-gray-800 border border-gray-700 p-2.5 rounded-lg text-sm text-white focus:outline-none focus:border-primary">
+                <textarea id="p-desc" placeholder="Loyiha tavsifi" required class="w-full bg-gray-800 border border-gray-700 p-2.5 rounded-lg text-sm text-white focus:outline-none focus:border-primary h-24"></textarea>
+                <select id="p-status" class="w-full bg-gray-800 border border-gray-700 p-2.5 rounded-lg text-sm text-white focus:outline-none focus:border-primary">
+                    <option value="Tayyor">Tayyor</option>
+                    <option value="Ishlab chiqilmoqda">Ishlab chiqilmoqda</option>
+                    <option value="Rejada">Rejada</option>
+                </select>
+                <input type="text" id="p-tech" placeholder="Texnologiyalar (vergul bilan: Python, Django)" class="w-full bg-gray-800 border border-gray-700 p-2.5 rounded-lg text-sm text-white focus:outline-none focus:border-primary">
+                <input type="url" id="p-github" placeholder="GitHub havolasi" class="w-full bg-gray-800 border border-gray-700 p-2.5 rounded-lg text-sm text-white focus:outline-none focus:border-primary">
+                <input type="url" id="p-live" placeholder="Demo/Live havolasi" class="w-full bg-gray-800 border border-gray-700 p-2.5 rounded-lg text-sm text-white focus:outline-none focus:border-primary">
+
+                <div class="flex gap-2 pt-2">
+                    <button type="button" onclick="closeModal()" class="w-1/2 py-2 bg-gray-800 hover:bg-gray-700 rounded-lg text-sm font-medium transition">Bekor qilish</button>
+                    <button type="submit" class="w-1/2 py-2 bg-emerald-600 hover:bg-emerald-500 rounded-lg text-sm font-medium text-white transition">Saqlash</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="text-center py-6 text-xs text-gray-500 border-t border-gray-800/50">
+        © 2026 Maksudjanov Behruzbek. Django REST API va Tailwind CSS yordamida yaratilgan.
+    </footer>
+
+    <!-- JavaScript to Fetch/Post data from/to Django API -->
+    <script>
+        const API_URL = 'http://127.0.0.1:8000/api/projects/';
+
+        // Fetch projects from Django REST Framework API
+        async function fetchProjects() {
+            const container = document.getElementById('projects-container');
+            try {
+                const res = await fetch(API_URL);
+                const projects = await res.json();
+
+                if (projects.length === 0) {
+                    container.innerHTML = `
+                        <div class="col-span-full text-center py-10 glass-card rounded-xl text-gray-400">
+                            Hozircha loyihalar yo'q. Yuqoridagi tugma orqali birinchi loyihani qo'shing!
+                        </div>`;
+                    return;
+                }
+
+                container.innerHTML = projects.map(p => {
+                    const techList = Array.isArray(p.technologies) ? p.technologies : [];
+                    return `
+                        <div class="glass-card p-5 rounded-xl border border-gray-800 hover:border-gray-700 transition flex flex-col justify-between space-y-4">
+                            <div>
+                                <div class="flex justify-between items-start mb-2">
+                                    <h4 class="font-bold text-lg text-white">${p.title}</h4>
+                                    <span class="text-xs px-2 py-0.5 rounded-full ${p.status === 'Tayyor' ? 'bg-emerald-950 text-emerald-400 border border-emerald-800' : 'bg-yellow-950 text-yellow-400 border border-yellow-800'}">
+                                        ${p.status}
+                                    </span>
+                                </div>
+                                <p class="text-gray-400 text-sm leading-relaxed mb-4">${p.description}</p>
+                                <div class="flex flex-wrap gap-1.5 mb-4">
+                                    ${techList.map(t => `<span class="text-[11px] bg-gray-800 text-gray-300 px-2 py-0.5 rounded border border-gray-700">${t}</span>`).join('')}
+                                </div>
+                            </div>
+                            <div class="flex justify-between items-center pt-2 border-t border-gray-800/80 text-xs">
+                                <div class="flex gap-3">
+                                    ${p.github_link ? `<a href="${p.github_link}" target="_blank" class="text-gray-400 hover:text-white"><i class="fab fa-github"></i> Kod</a>` : ''}
+                                    ${p.live_link ? `<a href="${p.live_link}" target="_blank" class="text-primary hover:underline"><i class="fas fa-external-link-alt"></i> Ko'rish</a>` : ''}
+                                </div>
+                                <button onclick="deleteProject(${p.id})" class="text-red-400 hover:text-red-300">
+                                    <i class="fas fa-trash"></i>
+                                </button>
+                            </div>
+                        </div>
+                    `;
+                }).join('');
+            } catch (err) {
+                container.innerHTML = `
+                    <div class="col-span-full text-center py-10 glass-card rounded-xl text-red-400 border border-red-900/50">
+                        Django API bilan bog'lanib bo'lmadi. <code>python manage.py runserver</code> buyrug'i bilan server ishlayotganiga ishonch hosil qiling.
+                    </div>`;
+            }
+        }
+
+        // Add new project via POST
+        document.getElementById('add-project-form').addEventListener('submit', async (e) => {
+            e.preventDefault();
+            const techInput = document.getElementById('p-tech').value;
+            const techArray = techInput ? techInput.split(',').map(t => t.trim()) : [];
+
+            const newProject = {
+                title: document.getElementById('p-title').value,
+                description: document.getElementById('p-desc').value,
+                status: document.getElementById('p-status').value,
+                technologies: techArray,
+                github_link: document.getElementById('p-github').value || null,
+                live_link: document.getElementById('p-live').value || null,
+            };
+
+            try {
+                const res = await fetch(API_URL, {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify(newProject)
+                });
+
+                if (res.ok) {
+                    closeModal();
+                    document.getElementById('add-project-form').reset();
+                    fetchProjects();
+                } else {
+                    alert('Loyihani saqlashda xatolik yuz berdi!');
+                }
+            } catch (err) {
+                alert('Django serveriga maʼlumot yuborib boʻlmadi.');
+            }
+        });
+
+        // Delete project via DELETE
+        async function deleteProject(id) {
+            if (!confirm('Haqiqatan ham bu loyihani oʻchirmoqchimisiz?')) return;
+            try {
+                const res = await fetch(`${API_URL}${id}/`, { method: 'DELETE' });
+                if (res.ok) {
+                    fetchProjects();
+                }
+            } catch (err) {
+                alert('Loyihani oʻchirib boʻlmadi.');
+            }
+        }
+
+        function openModal() { document.getElementById('project-modal').classList.remove('hidden'); }
+        function closeModal() { document.getElementById('project-modal').classList.add('hidden'); }
+
+        // Initial Load
+        fetchProjects();
+    </script>
+</body>
+</html>
+
+const API_URL = 'http://127.0.0.1:8000/api/projects/';
