@@ -1,0 +1,1 @@
+pip install django djangorestframework django-cors-headers gunicorn psycopg2-binary && python manage.py migrate
